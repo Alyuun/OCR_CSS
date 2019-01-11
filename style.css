@@ -1,4 +1,31 @@
-.bienvenue
-{
+.bienvenue {
 	color: blue;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'Mapolice';
+    src: url('police/ma_police.eot');
+    src: url('police/ma_police.eot?#iefix') format('embedded-opentype'),
+         url('police/ma_police.woff') format('woff'),
+         url('police/ma_police.ttf') format('truetype'),
+         url('police/ma_police.svg#Mapolice') format('svg');
+}
+
+h1 { /* Utilisation de la police qu'on vient de définir sur les titres */
+    font-family: 'Mapolice', Arial, serif;
+    font-size: 5em; /* Titres de 40 pixels */
+    font-style: italic;
+    color: #FF69B4;
+}
+
+.souligne {
+	text-decoration: underline;
+}
+
+.barre {
+	text-decoration: line-through;
+}
+
+.overline {
+	text-decoration: overline;
 }
