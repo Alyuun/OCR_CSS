@@ -15,17 +15,27 @@ h1 { /* Utilisation de la police qu'on vient de définir sur les titres */
     font-family: 'Mapolice', Arial, serif;
     font-size: 5em; /* Titres de 40 pixels */
     font-style: italic;
+    color: blue;
+    text-align: center;
+    opacity: 0.5;
+    border: 2px solid black;
+}
+
+.image_flottante {
+    float: left;
+}
+
+.p_dessous {
+    clear: both;
+}
+
+body {
+    background: url("img/image_flottante.jpg") fixed no-repeat top center, url("img/background.jpg") fixed center;
     color: #FF69B4;
 }
 
-.souligne {
-	text-decoration: underline;
-}
-
-.barre {
-	text-decoration: line-through;
-}
-
-.overline {
-	text-decoration: overline;
+mark {
+    background-color: red;
+    color: black;
+    border-radius: 10px
 }
