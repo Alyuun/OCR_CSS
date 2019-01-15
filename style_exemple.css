@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+	border: double black;
+    padding-top: -5px;
+    padding-bottom: -5px	
+}
+
+.premiere_phrase {
+	margin-left: 600px;
+	margin-right: 600px;
+}

@@ -39,3 +39,9 @@ mark {
     color: black;
     border-radius: 10px
 }
+
+p {
+	border: ridge black;
+	box-shadow: 6px 6px 0px black inset;
+	text-shadow: 2px 2px 4px black;
+}
