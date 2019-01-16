@@ -31,7 +31,8 @@ h1 { /* Utilisation de la police qu'on vient de définir sur les titres */
 
 body {
     background: url("img/image_flottante.jpg") fixed no-repeat top center, url("img/background.jpg") fixed center;
-    color: #FF69B4;
+    color: #604c4c;
+    font-style: bold;
 }
 
 mark {
@@ -40,8 +41,31 @@ mark {
     border-radius: 10px
 }
 
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+p:hover {
+	color: pink;
+}
+
+p:active {
+	background-color: green;
+}
+
+a:focus {
+	background-color: pink;
+}
+
 p {
-	border: ridge black;
-	box-shadow: 6px 6px 0px black inset;
-	text-shadow: 2px 2px 4px black;
+    color: green;
 }
