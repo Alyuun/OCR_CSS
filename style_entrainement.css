@@ -1,6 +1,6 @@
 h1 {
 	text-align: center;
-	border: double black;
+	border: double black; 
     padding-top: -5px;
     padding-bottom: -5px	
 }
@@ -13,3 +13,5 @@ h1 {
 h2,h3 {
 	color: pink;
 }
+
+/* ceci est un test pour GitHub */
